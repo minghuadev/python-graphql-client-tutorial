@@ -1,0 +1,62 @@
+#
+#
+
+'''results: 
+Query n 0 
+{   'data': {   '__schema': {   'types': [   {'name': 'Query'},
+                                             {'name': 'String'},
+                                             {'name': 'Int'},
+                                             {'name': '__Schema'},
+                                             {'name': '__Type'},
+                                             {'name': '__TypeKind'},
+                                             {'name': 'Boolean'},
+                                             {'name': '__Field'},
+                                             {'name': '__InputValue'},
+                                             {'name': '__EnumValue'},
+                                             {'name': '__Directive'},
+                                             {'name': '__DirectiveLocation'}]}}}
+
+Query n 1 
+{   'data': {   '__schema': {   'mutationType': None,
+                                'queryType': {'name': 'Query'},
+                                'subscriptionType': None,
+                                'types': [   {'name': 'Query'},
+                                             {'name': 'String'},
+                                             {'name': 'Int'},
+                                             {'name': '__Schema'},
+                                             {'name': '__Type'},
+                                             {'name': '__TypeKind'},
+                                             {'name': 'Boolean'},
+                                             {'name': '__Field'},
+                                             {'name': '__InputValue'},
+                                             {'name': '__EnumValue'},
+                                             {'name': '__Directive'},
+                                             {'name': '__DirectiveLocation'}]}}}
+
+Query n 2 
+{'data': {'__type': {'kind': 'OBJECT', 'name': 'Query'}}}
+
+Query n 3 
+{   'data': {   '__type': {   'fields': [   {   'description': None,
+                                                'name': 'hello',
+                                                'type': {   'kind': 'NON_NULL',
+                                                            'name': None}},
+                                            {   'description': None,
+                                                'name': 'who',
+                                                'type': {   'kind': 'SCALAR',
+                                                            'name': 'String'}},
+                                            {   'description': None,
+                                                'name': 'howMany',
+                                                'type': {   'kind': 'NON_NULL',
+                                                            'name': None}},
+                                            {   'description': None,
+                                                'name': 'howOld',
+                                                'type': {   'kind': 'SCALAR',
+                                                            'name': 'Int'}}],
+                              'kind': 'OBJECT',
+                              'name': 'Query'}}}
+
+Query n 4 
+{'data': {'hello': 'Hello, Python-urllib/3.8!...'}}
+'''
+
